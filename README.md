@@ -1,2 +1,3 @@
 # optc-supports
-Sorted Stats of Support Units in OPTC
+안녕하세요 원피스트레저크루즈 갤러리의 고양이 입니다.
+해당 DB는 영문판DB를 번역 + 일부 코드 수정본입니다. 감사합니다.
