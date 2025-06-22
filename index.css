@@ -1,0 +1,75 @@
+
+.STR   { background: salmon; }
+.QCK   { background: lightskyblue; }
+.DEX   { background: lightgreen; }
+.PSY   { background: gold; }
+.INT   { background: orchid; }
+.RCV   { background: darkgoldenrod; }
+.TND   { background: peru; }
+.BLOCK { background: darkslateblue; color: #fff !important; }
+.BOMB  { background: maroon; color: #fff !important; }
+.WANO  { background: firebrick; }
+.SEMLA  { background: saddlebrown; }
+.RAINBOW { background: linear-gradient(90deg,#fa8072,#ffd700,#90ee90,#87cefa, #da70d6); }
+.G     { background: orange; }
+.EMPTY { background: #777; color: #fff !important; }
+
+body.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+body.dark .nav-link.active {
+    background-color: #17191b;
+}
+
+.modal, .badge {
+  color: #000;
+}
+
+#theme, #changelogtoggle {
+    cursor: pointer;
+}
+
+.block-icon:before {
+    font-style: normal;
+    font-weight: normal;
+    font-family: icomoon;
+    font-size: 11px;
+    position: relative;
+    top: 1px;
+}
+
+.block-icon:before {
+    content: "\e902";
+}
+
+.version-info {
+    right: 10px;
+    bottom: 2px;
+    position: fixed;
+}
+
+.nav-tabs .nav-item {
+    font-size: 20px;
+}
+
+.sortable {
+    cursor: pointer;
+}
+
+.sortable:hover {
+    background-color: #cfcfcf;
+}
+
+body.dark .sortable:hover {
+    background-color: #17191b;
+}
+
+body.dark .tags-look .tagify__dropdown__item {
+    color: #000;
+}
+
+.min-input-col-width {
+    min-width: 300px;
+}
